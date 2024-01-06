@@ -15,7 +15,7 @@
         "APP_DEBUG": "true",
 
         "DB_CONNECTION": "pgsql",
-        "DATABASE_URL": "postgres://default:uiQj0yH2lkvg@ep-hidden-pond-04729856-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb?options=endpoint%3D<ep-hidden-pond-04729856-pooler>&sslmode=require",
+        "DATABASE_URL": "postgres://default:uiQj0yH2lkvg@ep-hidden-pond-04729856-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb?options=endpoint%3Dep-hidden-pond-04729856-pooler&sslmode=require",
 
         "CI": "false",
 
