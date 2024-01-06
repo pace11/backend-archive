@@ -76,7 +76,7 @@ return [
             'prefix_indexes' => true,
             'search_path' => 'public',
             'options' => array_filter([
-                'endpoint' => env('DB_ENDPOINT'),
+                'end-point' => env('DB_ENDPOINT'),
             ]),
             'sslmode' => env('DB_SSLMODE', 'prefer'),
         ],
