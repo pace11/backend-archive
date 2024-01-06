@@ -8,15 +8,6 @@
         "src": "/(.*)",
         "dest": "/api/index.php"
     }],
-    "headers": [{
-        "source": "/api/(.*)",
-        "headers": [
-            {
-                "key": "Access-Control-Allow-Origin",
-                "value": "*"
-            }
-        ]
-    }],
     "env": {
         "APP_NAME": "Laravel API",
         "APP_ENV": "production",
