@@ -21,7 +21,7 @@
         "DB_USERNAME": "default",
         "DB_PASSWORD": "uiQj0yH2lkvg",
         "DB_SSLMODE": "require",
-        "DB_OPTIONS": "endpoint%3Dep-hidden-pond-04729856-pooler",
+        "DB_ENDPOINT": "ep-hidden-pond-04729856-pooler",
 
         "CI": "false",
 
