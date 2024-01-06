@@ -1,0 +1,42 @@
+{
+    "version": 2,
+      "framework": null,
+    "functions": {
+        "api/index.php": { "runtime": "vercel-php@0.5.3" }
+    },
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "/api/index.php"
+    }],
+    "headers": [{
+        "source": "/api/(.*)",
+        "headers": [
+            {
+                "key": "Access-Control-Allow-Origin",
+                "value": "*"
+            }
+        ]
+    }],
+    "env": {
+        "APP_NAME": "Laravel API",
+        "APP_ENV": "production",
+        "APP_KEY": "base64:2UJTelruQAG4aFvUuiQ8nurGd+A449Gocj4c7M/46Yk=",
+        "APP_DEBUG": "true",
+
+        "DB_CONNECTION": "pgsql",
+        "DATABASE_URL": "postgres://default:uiQj0yH2lkvg@ep-hidden-pond-04729856-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb",
+
+        "CI": "false",
+
+        "APP_CONFIG_CACHE": "/tmp/config.php",
+        "APP_EVENTS_CACHE": "/tmp/events.php",
+        "APP_PACKAGES_CACHE": "/tmp/packages.php",
+        "APP_ROUTES_CACHE": "/tmp/routes.php",
+        "APP_SERVICES_CACHE": "/tmp/services.php",
+        "VIEW_COMPILED_PATH": "/tmp",
+ 
+        "CACHE_DRIVER": "array",
+        "LOG_CHANNEL": "stderr",
+        "SESSION_DRIVER": "cookie"
+    }
+}
