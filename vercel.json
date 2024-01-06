@@ -15,7 +15,12 @@
         "APP_DEBUG": "true",
 
         "DB_CONNECTION": "pgsql",
-        "DATABASE_URL": "postgres://default:uiQj0yH2lkvg@ep-hidden-pond-04729856-pooler.us-east-1.postgres.vercel-storage.com:5432/verceldb?options=endpoint%3D<ep-hidden-pond-04729856-pooler>",
+        "DB_HOST": "ep-hidden-pond-04729856-pooler.us-east-1.postgres.vercel-storage.com",
+        "DB_PORT": "5432",
+        "DB_DATABASE": "verceldb",
+        "DB_USERNAME": "default",
+        "DB_PASSWORD": "uiQj0yH2lkvg",
+        "DB_SSLMODE": "require",
 
         "CI": "false",
 
